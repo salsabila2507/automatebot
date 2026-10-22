@@ -1,0 +1,29 @@
+# --- secret ---
+.env
+.env.*
+!.env.example
+
+# --- runtime ---
+*.log
+.bot.lock
+.ready
+
+# --- data customer / hasil ---
+data/
+data_deliv/
+data_test/
+_testdata/
+public/
+*.csv
+*.txt
+links_sesi2_recovered.json
+
+# --- backup ---
+*.bak
+*.bak.*
+bot.py.bak.*
+
+# --- python ---
+__pycache__/
+*.pyc
+.venv/
